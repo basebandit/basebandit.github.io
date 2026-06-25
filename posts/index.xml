@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on The Basebandit</title><link>https://basebandit.github.io/posts/</link><description>Recent content in Posts on The Basebandit</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 07 Sep 2024 10:00:00 +0300</lastBuildDate><atom:link href="https://basebandit.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Exposing Apps with Kubernetes Ingress</title><link>https://basebandit.github.io/posts/exposing-apps-with-kubernetes-ingress/</link><pubDate>Sat, 07 Sep 2024 10:00:00 +0300</pubDate><guid>https://basebandit.github.io/posts/exposing-apps-with-kubernetes-ingress/</guid><description>&lt;h1 id="exposing-apps-with-kubernetes-ingress">
+ Exposing Apps with Kubernetes Ingress
+ &lt;a class="heading-link" href="#exposing-apps-with-kubernetes-ingress">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h1>
+&lt;p>Imagine you&amp;rsquo;ve built a small HTTP API. Nothing fancy: it returns the hostname of the pod that served the request and a running hit counter it keeps in Redis. Locally it works great. You containerize it, push it to a registry, and deploy it to your Kubernetes cluster. The pods come up, the logs look healthy, Redis is connected.&lt;/p></description></item><item><title>Securing AWS Root Account</title><link>https://basebandit.github.io/posts/secure-aws-root-user/</link><pubDate>Mon, 22 Jan 2024 10:30:00 +0300</pubDate><guid>https://basebandit.github.io/posts/secure-aws-root-user/</guid><description>&lt;h1 id="how-to-secure-your-aws-root-account-and-create-a-proper-admin-user">
+ How to Secure Your AWS Root Account and Create a Proper Admin User
+ &lt;a class="heading-link" href="#how-to-secure-your-aws-root-account-and-create-a-proper-admin-user">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h1>
+&lt;p>When you first set up your AWS account, you’re given access as the root user. While this account has complete control over your AWS environment, it should never be used for daily operations. Instead, it&amp;rsquo;s best practice to secure your root account with Multi-Factor Authentication (MFA) and create a dedicated administrative IAM user for regular use.&lt;/p></description></item><item><title>Why Debugging Is Important</title><link>https://basebandit.github.io/posts/why-debugging-is-important/</link><pubDate>Mon, 17 Jun 2019 16:35:31 +0300</pubDate><guid>https://basebandit.github.io/posts/why-debugging-is-important/</guid><description>&lt;p>Here are my two cents on why I think debugging your own code first before looking for help elsewhere ( online/offline ) makes you a better software author and improves your problem solving skills.&lt;/p>
+&lt;blockquote>
+&lt;p>By debugging I mean using an actual debugger ( usually integrated into most IDEs or shipped with some programming languages nowadays or provided as a third party library ).&lt;/p>&lt;/blockquote>
+&lt;p>We both have to agree on one thing, Software development as much as it is fun it is not the most straight forward of jobs. It is filled with lots of frustrations in almost equal measure as it is with fun.&lt;/p></description></item><item><title>Go Arrays</title><link>https://basebandit.github.io/posts/golang-arrays/</link><pubDate>Sat, 11 May 2019 16:35:31 +0300</pubDate><guid>https://basebandit.github.io/posts/golang-arrays/</guid><description>&lt;h1 id="go-arrays">
+ Go Arrays
+ &lt;a class="heading-link" href="#go-arrays">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h1>
+&lt;p>In Go, an array is a fixed-length, ordered collection of values of the same type. The important phrase is &lt;strong>fixed-length&lt;/strong>: once an array has been declared, its length cannot change.&lt;/p>
+&lt;p>That one detail explains why arrays are less common in day-to-day Go code than slices. Slices are flexible and can grow; arrays are exact. Still, arrays are worth understanding because slices are built on top of them, and because arrays make Go&amp;rsquo;s value semantics very clear.&lt;/p></description></item></channel></rss>
